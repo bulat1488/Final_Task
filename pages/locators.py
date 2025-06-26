@@ -13,3 +13,5 @@ class ProductPageLocators:
     ALERT_NAME_PRODUCT = (By.CSS_SELECTOR, "div.alertinner ") # название товара в алерте
     PRICE_PRODUCT = (By.CSS_SELECTOR, "div.product_main") # цена товара
     ALERT_PRICE_PRODUCT = (By.CSS_SELECTOR, ".alert-info strong") # цена товара в алерте
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div.alert-success")
+    PRODUCT_PRICE = (By.CSS_SELECTOR, "div.product_main p.price_color")
